@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Label.MainPage">
+
+    <StackLayout Margin="20, 35, 20, 20">
+        
+        <!--<Label Text="Bienvenido al canal no olvides suscribirte :v" 
+               HorizontalOptions="StartAndExpand"
+               TextColor="Green"
+               FontAttributes="Bold"
+               FontSize="22"
+               TextDecorations="Strikethrough"/>-->
+        <Label FontSize="Medium" HorizontalOptions="Center">
+            <Label.FormattedText>
+            <FormattedString>
+                    <Span TextDecorations="Strikethrough" FontAttributes="Bold" TextColor="Green">Programación Orientada a Objetos</Span>
+                    <Span FontAttributes="Italic" TextColor="Blue">es un paradigma de la programación</Span>
+                    <Span TextColor="Gray" TextDecorations="Strikethrough">que nos ayuda a obtener mejores resultados</Span>
+            </FormattedString>
+            </Label.FormattedText>
+        </Label>
+
+    </StackLayout>
+
+</ContentPage>
